@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <!--<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description"
+          content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Horitake Tattoo</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/take-icon-01.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top">彫岳 / HORITAKE</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <div class="d-flex justify-content-center">
+                <!--<div class="col-xl-5">
+                    <img class="img-fluid" src="assets/img/fg-masthead.jpg" alt="..." />
+                </div>-->
+            </div>
+        </div>
+    </header>
+    <!-- About-->
+    <section class="about-section text-center" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-white mb-4">About HORITAKE Tattoo Studio</h2>
+                    <p class="text-white-50">
+                        葛飾金町刺青処　彫岳/HORITAKEは、お客様一人一人の人生を華やかにするきっかけを、「刺青」とゆう形で責任をもって提供させて頂きます。
+                        どんなデザインでも、お客様のイメージより高いクオリティの作品の制作を心がけています。
+                        アットホームなスタジオとなっていますので、緊張せずお越し頂けると幸いです。
+                    </p>
+                </div>
+            </div>
+            <!-- <img class="img-fluid" src="assets/img/about-bg-1.png" alt="..." /> -->
+        </div>
+    </section>
+    <section class="gallery-section bg-light" id="gallery">
+        <div class="container px-4 px-lg-5">
+            <!-- Gallery One Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/gallery-1.png" alt="..." /></div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 gallery">
+                        <div class="d-flex h-100">
+                            <div class="gallery-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Art Work</h4>
+                                <p class="mb-0 text-white-50">アートワークです。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Gallery Two Row-->
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/gallery-2.png" alt="..." /></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 gallery">
+                        <div class="d-flex h-100">
+                            <div class="gallery-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">和彫り</h4>
+                                <p class="mb-0 text-white-50">伝統和彫り、現代和彫りの作品集になります。伝統和彫りでは、古き良きを大切に黒、朱、緑、茶色を基本ベースに仕上げています。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Horitake 2023</div></footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div> -->
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+</html>

@@ -1,0 +1,7 @@
+> Add splash-screen/loading animation
+	> Modal above "top-page" div
+	> Top-down splash with kanji for "horitake"
+> Leave auto-collapse menu -for now-, but change media-change nav color to transparent still. nav-color transparent will be for top-page, not media change.
+> Add studio-bg on About
+> Change text highlights to red/orange/whatever-not-green
+> Remove white-border on nav-bar after scroll-up to top-page
