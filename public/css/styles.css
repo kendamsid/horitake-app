@@ -10983,7 +10983,7 @@ body {
     min-height: 3.5rem;
     background-color: #fff;
     -webkit-animation-name: navfade;
-    -webkit-animation-duration: 5s;
+    -webkit-animation-duration: 6s;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-timing-function: ease-out;
 }
