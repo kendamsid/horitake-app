@@ -11119,7 +11119,7 @@ body {
     background-attachment: scroll;
     background-size: cover;
     -webkit-animation-name: bgfade;
-    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 4s;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-timing-function: ease-out;
 }
