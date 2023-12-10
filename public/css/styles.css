@@ -11169,10 +11169,13 @@ body {
 }
 
 .gallery-section {
-  padding: 10rem 0;
+  padding: 2rem 0;
+}
+.gallery-section .featured-section {
+  padding: 5rem 0;
 }
 .gallery-section .featured-text {
-  padding: 2rem;
+  /*padding: 2rem;*/
 }
 @media (min-width: 992px) {
     .gallery-section .featured-text {
