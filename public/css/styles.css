@@ -11253,3 +11253,7 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+.fa-map-location, .fa-envelope {
+    color: #343a40 !important;
+}
