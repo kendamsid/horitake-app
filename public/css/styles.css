@@ -10980,8 +10980,25 @@ body {
 }
 
 #mainNav {
-  min-height: 3.5rem;
-  background-color: #fff;
+    min-height: 3.5rem;
+    background-color: #fff;
+    -webkit-animation-name: navfade;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-out;
+}
+@-webkit-keyframes navfade {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 1
+    }
 }
     #mainNav .navbar-toggler {
         font-size: 80%;
@@ -11078,9 +11095,13 @@ body {
     background-size: cover;*/
     background-color: rgb(0 0 0);
 }
-@-webkit-keyframes test {
+@-webkit-keyframes bgfade {
     0% {
         opacity: 0;
+    }
+
+    50% {
+        opacity: 0%;
     }
 
     100% {
@@ -11097,8 +11118,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    -webkit-animation-name: test;
-    -webkit-animation-duration: 5s;
+    -webkit-animation-name: bgfade;
+    -webkit-animation-duration: 3s;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-timing-function: ease-out;
 }
